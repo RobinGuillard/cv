@@ -2278,7 +2278,7 @@ input[type=button]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #76B900;
+  background-color: #6050DC;
   background-attachment: scroll, scroll;
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
@@ -2768,7 +2768,7 @@ h6 br {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #36BB2D;
+    background: #6050DC;
     color: #fff;
     min-width: 320px;
   }
@@ -2821,7 +2821,7 @@ h6 br {
   }
   #titleBar .toggle:before {
     text-decoration: none;
-    background: #36BB2D;
+    background: #6050DC;
     color: #ffffff;
     content: "\f0c9";
     display: block;
