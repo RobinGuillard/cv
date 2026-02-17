@@ -10,7 +10,7 @@
 @font-face {
   font-family: "Source Sans Pro";
   src: url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/8c7fe4ab-375c-4be5-bba8-2c4d83ac807a.eot?#iefix");
-  src: url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/8c7fe4ab-375c-4be5-bba8-2c4d83ac807a.eot?#iefix") format("eot"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/b37595d7-d2c2-465d-81bd-f5bc289fc565.woff2") format("woff2"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/88e0673d-3db0-4931-ae03-8a4a6eb1bbe6.woff") format("woff"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/957860fc-f472-47cc-afcb-6305b3455894.ttf") format("truetype"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/739dd5f9-b50a-4700-bb3d-77ab01a96697.svg#8A7DE8f9-b50a-4700-bb3d-77ab01a96697") format("svg");
+  src: url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/8c7fe4ab-375c-4be5-bba8-2c4d83ac807a.eot?#iefix") format("eot"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/b37595d7-d2c2-465d-81bd-f5bc289fc565.woff2") format("woff2"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/88e0673d-3db0-4931-ae03-8a4a6eb1bbe6.woff") format("woff"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/957860fc-f472-47cc-afcb-6305b3455894.ttf") format("truetype"), url("https://www.simonsfoundation.org/app/themes/simonsfoundation/dist/fonts/739dd5f9-b50a-4700-bb3d-77ab01a96697.svg#6889B5f9-b50a-4700-bb3d-77ab01a96697") format("svg");
   font-weight: 300;
   font-style: italic;
 }
@@ -235,12 +235,12 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #6050DC;
+  color: #1E437A;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #6050DC;
+  color: #1E437A;
   text-decoration: none;
 }
 
@@ -1549,7 +1549,7 @@ header h6 + p {
 }
 header.major h2 {
   font-size: 1.75m;
-  color: #6050DC;
+  color: #1E437A;
 }
 
 /* Form */
@@ -1596,7 +1596,7 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #6050DC;
+  border-color: #1E437A;
 }
 
 select {
@@ -1693,7 +1693,7 @@ input[type=radio]:checked + label:before {
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #6050DC;
+  border-color: #1E437A;
 }
 
 input[type=checkbox] + label:before {
@@ -2156,16 +2156,16 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
 .button:hover {
-  border-color: #6050DC;
-  color: #6050DC !important;
+  border-color: #1E437A;
+  color: #1E437A !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active,
 .button:active {
   background-color: rgba(83, 126, 186, 0.1);
-  border-color: #6050DC;
-  color: #6050DC !important;
+  border-color: #1E437A;
+  color: #1E437A !important;
 }
 input[type=submit].icon,
 input[type=reset].icon,
@@ -2213,23 +2213,23 @@ input[type=submit].primary,
 input[type=reset].primary,
 input[type=button].primary,
 .button.primary {
-  background-color: #6050DC;
-  border-color: #6050DC;
+  background-color: #1E437A;
+  border-color: #1E437A;
   color: #ffffff !important;
 }
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
 input[type=button].primary:hover,
 .button.primary:hover {
-  background-color: #7B6FE3;
-  border-color: #7B6FE3;
+  background-color: #4A6FA0;
+  border-color: #4A6FA0;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
 input[type=button].primary:active,
 .button.primary:active {
-  background-color: #4E40C0;
-  border-color: #4E40C0;
+  background-color: #152F5C;
+  border-color: #152F5C;
 }
 input[type=submit].disabled, input[type=submit]:disabled,
 input[type=reset].disabled,
@@ -2278,7 +2278,7 @@ input[type=button]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #6050DC;
+  background-color: #1E437A;
   background-attachment: scroll, scroll;
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
@@ -2343,7 +2343,7 @@ input[type=button]:disabled,
   padding: 0;
 }
 #header #nav > ul li {
-  /*border-top: solid 2px #3D2F8A; /*#5ccfb1;*/
+  /*border-top: solid 2px #0E1F3D; /*#5ccfb1;*/
   display: block;
   padding: 0;
 }
@@ -2768,7 +2768,7 @@ h6 br {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #6050DC;
+    background: #1E437A;
     color: #fff;
     min-width: 320px;
   }
@@ -2821,7 +2821,7 @@ h6 br {
   }
   #titleBar .toggle:before {
     text-decoration: none;
-    background: #6050DC;
+    background: #1E437A;
     color: #ffffff;
     content: "\f0c9";
     display: block;
