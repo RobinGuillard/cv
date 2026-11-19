@@ -1,6 +1,6 @@
 # Robin Guillard - Personal Academic Website
 
-This repository hosts the source code for [robinguillard.github.io](https://robinguillard.github.io/), a personal academic website for Robin Guillard.
+This repository hosts the source code for [robinguillard.github.io/cv](https://robinguillard.github.io/cv/), a personal academic website for Robin Guillard.
 
 ## How to Edit This Website
 
@@ -10,7 +10,7 @@ The website is a single-page static site hosted on GitHub Pages. All content is 
 
 ### Quick Edits on GitHub (No Setup Required)
 
-1. Go to [github.com/RobinGuillard/robinguillard.github.io](https://github.com/RobinGuillard/robinguillard.github.io)
+1. Go to [github.com/RobinGuillard/cv](https://github.com/RobinGuillard/cv)
 2. Click on `index.html`
 3. Click the pencil icon (Edit this file) in the top right
 4. Make your changes
@@ -27,8 +27,8 @@ The website is a single-page static site hosted on GitHub Pages. All content is 
 
 #### Setup (First Time Only)
 ```bash
-git clone https://github.com/RobinGuillard/robinguillard.github.io.git
-cd robinguillard.github.io
+git clone https://github.com/RobinGuillard/cv.git
+cd cv
 ```
 
 #### Edit, Preview, and Publish
@@ -44,7 +44,7 @@ git add .
 git commit -m "Describe your changes"
 git push
 ```
-The site will update at robinguillard.github.io within 1-2 minutes after pushing.
+The site will update at robinguillard.github.io/cv within 1-2 minutes after pushing.
 
 ---
 
@@ -120,10 +120,10 @@ At the top of `index.html`, update:
 ```
 
 ### Color Scheme
-The accent color is `#6050DC` (purple). To change it:
+The accent color is `#1E437A` (dark blue). To change it:
 1. Open `assets/css/custom.css`
-2. Find-and-replace `#6050DC` with your preferred hex color
-3. Also replace the variant shades: `#7B6FE3` (lighter), `#4E40C0` (darker), `#8A7DE8` (lightest), `#3D2F8A` (darkest)
+2. Find-and-replace `#1E437A` with your preferred hex color
+3. Also replace the lighter variant shade `#4A6FA0`
 
 ### Institution Logo (Footer)
 Replace `images/stanford_logo.svg` with your institution's logo, and update the link in the footer section of `index.html`.
@@ -133,14 +133,14 @@ Replace `images/stanford_logo.svg` with your institution's logo, and update the 
 ## File Structure
 
 ```
-robinguillard.github.io/
+cv/
   index.html              -- Main (and only) page content
   images/
     avatar.svg            -- Profile photo (replace with your headshot)
     stanford_logo.svg     -- Institution logo in sidebar
   assets/
     css/
-      custom.css          -- Main stylesheet (purple theme)
+      custom.css          -- Main stylesheet (blue theme)
       fontawesome-all.min.css  -- Icon library
       main.css            -- Original blue theme (backup)
       images/
